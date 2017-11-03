@@ -1,2 +1,18 @@
 How to upload an Eclipse project to GitHub?
+
+1) New a Project named "myproject" (e.g: Java Project) In Eclipse.
+   The project should be in Eclipse workspace area (e.g: /Documents/worksapce/myproject)
+
+2) Selected "myproject" --> Team (right click) ->"Share Project" (Git) -> Repository (create, 
+   choose : /Download/ycprojects/myproject-repo") 
+   For "Repository",it will be "myproject - /Download/ycprojects/myproject-repo/.git
+   
+   Check "myproject", 
+   Current Location is: /Documents/workspace/myproject; Target Location is: /Download/ycprojects/myproject-repo/myproject
+   
+   After this completion, actually it change eclipse project working directory to GIT repo.
+
+3)
+   
+
 How to add a GitHub repo into your Eclipse?
