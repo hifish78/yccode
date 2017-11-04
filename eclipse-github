@@ -38,6 +38,7 @@
         For Projects: Please checked "Import all existing Eclipse projects after clone finishes 
         
   2) New Project in Eclipse
+     If you saw a Eclipse project (e.g: test-eclipse there, please delete it, then new a new one)
      New a Java Project in Eclipse, please uncheck "Use default location", then input your local git repo location
      (e.g:provide "/Users/ccyu/Downloads/ycprojects/test-eclipse" as "Location" value)
      
