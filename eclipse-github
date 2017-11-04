@@ -22,6 +22,7 @@
    push to remote repo (You need to create a Git Repo in github before that (e.g: https://github.com/hifish78/yccode.git)
    
 #How to add a GitHub repo into your Eclipse?
+(We have a GitHub Repo, need to clone github repo to local, then use Eclipse IDE for development)
 1）Clone GitHub to Local
    Go to "Git Repositories" view --> Click "Clone a GIT repository" -->"In Source Git Repository", filled URI with your GitHub Repo's URL
    One example: 
