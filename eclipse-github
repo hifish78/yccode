@@ -1,18 +1,25 @@
-How to upload an Eclipse project to GitHub?
+#How to upload an Eclipse project to GitHub?
+(We have an Eclipse project on local. We would like to push the local Eclipse project source code to GitHub Repo.)
+1) create a GitHub Repo (e.g: https://github.com/hifish78/yccode.git)
 
-1) New a Project named "myproject" (e.g: Java Project) In Eclipse.
+2) New a project in Eclipse 
+   New a Project named "myproject" (e.g: Java Project) In Eclipse.
    The project should be in Eclipse workspace area (e.g: /Documents/worksapce/myproject)
 
-2) Selected "myproject" --> Team (right click) ->"Share Project" (Git) -> Repository (create, 
-   choose : /Download/ycprojects/myproject-repo") 
+3) Create a local git repo for the project and change working dir to git repo
+   selected "myproject" -> Team (right click)->"Share Project" (Git) -> Repository (create,choose:/Download/ycprojects/myproject-repo") 
+   Note:
    For "Repository",it will be "myproject - /Download/ycprojects/myproject-repo/.git
-   
-   Check "myproject", 
-   Current Location is: /Documents/workspace/myproject; Target Location is: /Download/ycprojects/myproject-repo/myproject
+   For "myproject", Current Location is: /Documents/workspace/myproject; Target Location is: /Download/ycprojects/myproject-repo/myproject
    
    After this completion, actually it change eclipse project working directory to GIT repo.
 
-3)
-   
+4) do the first commit (commit to local master repo)
+   selected "myproject" -> "Team"(right click) -> "Commit" (do a first commit (not push)
+   Then the first commit will go to local repo master branch
 
-How to add a GitHub repo into your Eclipse?
+5) push to remote Repo (configure push with github existing repo)
+   push to remote repo (You need to create a Git Repo in github before that (e.g: https://github.com/hifish78/yccode.git)
+   
+#How to add a GitHub repo into your Eclipse?
+
