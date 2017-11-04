@@ -7,9 +7,9 @@
    The project should be in Eclipse workspace area (e.g: /Documents/worksapce/myproject)
 
 3) Create a local git repo for the project and change working dir to git repo
-   selected "myproject" -> Team (right click)->"Share Project" (Git) -> Repository (create,choose:/Download/ycprojects/myproject-repo") 
+   selected "myproject" -> Team (right click)->"Share Project" (Git) -> Repository (create,choose:/Downloads/ycprojects/myproject-repo") 
    Note:
-   For "Repository",it will be "myproject - /Download/ycprojects/myproject-repo/.git
+   For "Repository",it will be "myproject - /Downloads/ycprojects/myproject-repo/.git
    For "myproject", Current Location is: /Documents/workspace/myproject; Target Location is: /Download/ycprojects/myproject-repo/myproject
    
    After this completion, actually it change eclipse project working directory to GIT repo.
@@ -22,4 +22,25 @@
    push to remote repo (You need to create a Git Repo in github before that (e.g: https://github.com/hifish78/yccode.git)
    
 #How to add a GitHub repo into your Eclipse?
-
+1）Clone GitHub to Local
+   Go to "Git Repositories" view --> Click "Clone a GIT repository" -->"In Source Git Repository", filled URI with your GitHub Repo's URL
+   One example: 
+   For "Source Git Repository" Tab, providing the below info.
+        URI: https://github.com/hifish78/test-eclipse.git,
+        Host:github.com
+        Repositry path: /hifish78/test-eclipse.git
+        Protocol:https
+        User: <your github user>
+        Password: <Your password in github>
+   For "Local Destination" Tab,
+        Directory: Please input your local git repo location(e.g: /Downloads/ycprojects/test-eclipse)
+        For Projects: Please checked "Import all existing Eclipse projects after clone finishes 
+        
+  2) New Project in Eclipse
+     New a Java Project in Eclipse, please uncheck "Use default location", then input your local git repo location
+     (e.g:provide "/Users/ccyu/Downloads/ycprojects/test-eclipse" as "Location" value)
+     
+  Reference Link: 
+  https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse
+   
+        
